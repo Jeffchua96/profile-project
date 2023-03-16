@@ -1,0 +1,29 @@
+body{
+    font-family: sans-serif;
+}
+li{
+    list-style:none;
+}
+
+.planet-container {
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.planet-card {
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding:20px;
+    border: 10px solid skyblue;
+
+}
+.planet-card p{
+    display:flex;
+    margin: 0;
+    width: 360px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
