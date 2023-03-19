@@ -13,12 +13,12 @@ let paragraph = document.createElement("p")
 image.src=planet.picture
 
 header.textContent= planet.name
-paragraph.textContent= `${planet.name} is the ${planet.positionfromSun}planet from the Sun. Its years is ${planet.earthDayInAYear} earth days long`
+paragraph.textContent= `${planet.name} is the ${planet.positionfromSun}planet from the Sun. Its years is ${planet.earthDayInAYear} earth days long.`
 
 planetCard.append(image)
 planetContainer.append(planetCard)
 console.log(planet.name)
 }
-planets.forEach(planet => {
+planets.forEach(planet) => {
 addPlanetCard(planet)
-})
+}
